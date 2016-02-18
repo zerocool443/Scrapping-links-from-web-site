@@ -1,0 +1,24 @@
+from bs4 import BeautifulSoup
+from urllib2 import urlopen
+
+
+
+link=raw_input("Get me the link to scrape ")
+
+link="http://"+str(link)
+
+page=urlopen(link).read()
+
+from BeautifulSoup import BeautifulSoup
+
+soup=BeautifulSoup(page)
+
+links=[]
+
+for link in soup.findAll('a'):
+	if(link)
+
+
+
+
+
